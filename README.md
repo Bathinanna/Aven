@@ -1,8 +1,18 @@
 # Aven - AI-Powered Financial Assistant
 
+<p align="center">
+  <img src="public/aven.svg" alt="Aven Logo" width="200"/>
+</p>
+
 Aven is a modern Next.js application featuring an AI-powered financial assistant that helps users with financial questions, especially related to home equity and credit products.
 
 ## 🌟 Key Features
+
+<p align="center">
+  <img src="public/window.svg" alt="Application Interface" width="60"/> 
+  <img src="public/globe.svg" alt="Web Integration" width="60"/> 
+  <img src="public/file.svg" alt="Documentation" width="60"/>
+</p>
 
 - **AI Assistant** - Interactive chat interface powered by Google Gemini API
 - **Knowledge Base** - Searchable collection of financial documents and resources
@@ -11,6 +21,13 @@ Aven is a modern Next.js application featuring an AI-powered financial assistant
 - **Vector Search** - Semantic document search capabilities
 
 ## 📋 Project Highlights
+
+<div align="center">
+  <div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
+    <img src="public/Avens_Alexa.png" alt="Aven with Alexa" width="45%" style="border-radius: 8px;"/>
+    <img src="public/Avens_RealTime.png" alt="Aven Real Time Analysis" width="45%" style="border-radius: 8px;"/>
+  </div>
+</div>
 
 This project demonstrates:
 
@@ -45,6 +62,10 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+<p align="center">
+  <img src="public/Aven_HomePage.png" alt="Aven Home Page" width="80%" style="border-radius: 8px; margin-bottom: 20px;"/>
+</p>
+
 ## 🛠️ Development Tools
 
 - **Test Gemini API**: Run `npm run test:gemini` to verify your Gemini API integration
@@ -65,6 +86,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 The project includes sample test cases in `aven-test-cases.json` for testing the AI assistant's responses to various financial queries.
 
 ## 📚 Technology Stack
+
+<p align="center">
+  <img src="public/next.svg" alt="Next.js Logo" width="180" style="background-color: white; padding: 10px; border-radius: 5px;"/>
+</p>
 
 - **Next.js 15** - React framework with App Router
 - **TypeScript** - Type-safe JavaScript
