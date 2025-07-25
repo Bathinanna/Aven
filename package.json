@@ -1,0 +1,48 @@
+{
+  "name": "aven",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "setup-kb": "tsx scripts/setup-knowledge-base.ts",
+    "push-tests": "tsx scripts/push-tests.ts",
+    "free": "tsx scripts/free.ts",
+    "book": "tsx scripts/book.ts",
+    "test-gemini": "tsx scripts/test-gemini.ts",
+    "list-models": "tsx scripts/list-models.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@pinecone-database/pinecone": "^6.1.1",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@splinetool/react-spline": "^4.1.0",
+    "@splinetool/runtime": "^1.10.33",
+    "@vapi-ai/web": "^2.3.8",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.2.0",
+    "langchain": "^0.3.30",
+    "lucide-react": "^0.525.0",
+    "next": "15.4.1",
+    "openai": "^5.10.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.3",
+    "tw-animate-css": "^1.3.5",
+    "typescript": "^5"
+  }
+}
